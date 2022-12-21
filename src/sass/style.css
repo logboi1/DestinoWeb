@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  text-decoration: none !important;
+  list-style-type: none !important;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5em;
+  padding: 0 2em;
+  font-size: 1.2rem;
+  z-index: 999;
+}
+nav .logo h1 {
+  color: #000531;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 2.2rem;
+}
+nav .logo p {
+  font-size: 0.7rem;
+}
+nav .navlinks ul {
+  display: inline-flex;
+  gap: 1em;
+}
+nav .navlinks ul li a {
+  text-decoration: none;
+  color: #000531;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+nav .navlinks ul li a:hover {
+  color: rgba(0, 5, 49, 0.6352941176);
+}/*# sourceMappingURL=style.css.map */
